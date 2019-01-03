@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+h1{
+	font-family: "Dancing Script", cursive;
+	font-size: 40px 
+	border: bottom:1px solid white;
+	border-right: 1px solid white
+	width: 200px;color: white;
+	text-align: center;
+ }
+
+body {
+	margin 0; 
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+text-align: center;
+ background-image: url(ferns.jpg);
+ width:800 height:650;  
+ cursor: pointer;
+ color: white
+}
+
+a {
+	text-decoration: none;
+	color: white
+}
+	
+h2 {
+	font-family: "Dancing Script", cursive; 
+	font-size: 20px 
+	color: white;
+	text-align: center;
+	margin: 20px
+}
+
+.container {
+    /*show heigh: auto*/
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Images*/
+.zone {
+  /*padding:30px 50px;
+    margin:40px 60px;*/
+    cursor:pointer;
+   /* display:inline-block;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:1px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.grid-wrapper {
+    display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 3px;
+  justify-items: center;
+  align-items: center;
+  border: none;
+}
+
+.box > img {
+    width: 100%;
+        align-items: center;
+}
+
+.box {
+    background-color: #444;
+    padding: 0px;
+    margin: 20px;
+        align-items: center;
+}
